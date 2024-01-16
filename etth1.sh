@@ -6,7 +6,8 @@ fi
 if [ ! -d "./logs/LongForecasting" ]; then
     mkdir ./logs/LongForecasting
 fi
-seq_len=96
+
+seq_len=336
 model_name=Ours_Linear
 
 python -u run_longExp.py \

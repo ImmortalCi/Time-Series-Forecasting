@@ -5,11 +5,6 @@ from exp.exp_main import Exp_Main
 import random
 import numpy as np
 
-fix_seed = 2021
-random.seed(fix_seed)
-torch.manual_seed(fix_seed)
-np.random.seed(fix_seed)
-
 parser = argparse.ArgumentParser(description='Experiments for Time Series Forecasting')
 
 # basic config
